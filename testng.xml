@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- 
+<suite name="Parallel Execution for Master Framework" parallel="methods" thread-count="3">
+ -->
+<suite name="Execution for Master Framework" parallel="methods" thread-count="1">
+<test name="Main Suite">
+    <classes>
+      <class name="tests.BookStore"/>
+<class name="tests.LoginBookStore"/>
+    </classes>
+  </test>
+
+<!--     
+<test name="CleanOutlookFolder">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.SummaryEmailVerification"/>
+    </classes>
+  </test>
+
+       
+  <test name="BIResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.BIResendEmail"/>
+    </classes>
+  </test>
+   
+       
+<test name="BIResendEmailVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.BIResentRegistrationLink"/>
+    </classes>
+  </test>
+  
+
+
+  <test name="PFAResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.PFAResendEmail"/>
+    </classes>
+  </test>
+ 
+   
+      
+<test name="PFAResendEmailVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.PFAResentRegistrationLink"/>
+    </classes>
+  </test>
+
+
+  <test name="NDAResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.NDAResendEmail"/>
+    </classes>
+  </test>
+ 
+   
+      
+<test name="NDAResendEmailVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.NDAResentRegistrationLink"/>
+    </classes>
+  </test>
+  
+ <test name="ScopeOfServiceResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.ScopeOfServiceResendEmail"/>
+    </classes>
+  </test>
+   
+       
+<test name="ScopeOfServiceResendEmailVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.ScopeOfServiceResentRegistrationLink"/>
+    </classes>
+  </test>
+  
+
+ 
+
+ <test name="BillingInformationResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.BusinessInformationResendEmail"/>
+    </classes>
+  </test>
+   
+       
+<test name="BillingInformationResendEmailVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.BillingInformationResentRegistrationLink"/>
+    </classes>
+  </test>
+     --> 
+      <!-- 
+  <test name="DefaultSetting_Registration_Link_is_resent_to_Client_CheckBox_Make_Checked">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.BI_Reg_Resent_To_Client_DefaultSettingON"/>
+    </classes>
+  </test>
+  
+<test name="Outlook_Folder_CleanUp">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.CleanAIXDevelopment"/>
+    </classes>
+  </test>
+  
+<test name="Business_Information_ResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.BIResendEmail"/>
+    </classes>
+  </test>
+ -->
+<!-- 
+<test name="Outlook_Email_Validate">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.EmailAppearanceCheck_BI_Save"/>
+    </classes>
+  </test>
+   -->
+  <!-- 
+  <test name="DefaultSetting_BI_Reg_Resent_CheckBox_OnOff">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.BI_Reg_Resent_To_Client_DefaultSettingMakeItOnOff"/>
+    </classes>
+  </test>
+   -->
+  <!-- 
+  
+
+<test name="OutlookVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.BIResentRegistrationLink"/>
+    </classes>
+  </test>
+  -->
+<!--    
+  
+  <test name="BIResendEmailSend">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="verifications.BISaveEmail"/>
+    </classes>
+  </test>
+
+
+<test name="OutlookVerification">
+  <parameter name="browser" value="Firefoxoptions" />
+    <classes>
+      <class name="Outlook_Email_Verfication.EmailAppearanceCheck_BI_Save"/>
+    </classes>
+  </test>
+  
+  -->
+  
+</suite>

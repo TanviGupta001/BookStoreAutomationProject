@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Parallel Execution for Master Framework]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Main Suite(failed)">
+    <classes>
+      <class name="tests.Login">
+        <methods>
+          <include name="getResult"/>
+          <include name="ExtendStart"/>
+          <include name="endReport"/>
+          <include name="LoginTest"/>
+          <include name="SignUpTest"/>
+        </methods>
+      </class> <!-- tests.Login -->
+    </classes>
+  </test> <!-- Main Suite(failed) -->
+</suite> <!-- Failed suite [Parallel Execution for Master Framework] -->
